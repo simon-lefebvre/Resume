@@ -167,12 +167,12 @@ sup {
 }
 
 a {
-  color: #E78706;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  color: var(--primary);
   text-decoration: underline;
 }
 
@@ -10235,7 +10235,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(72, 108, 132, 0.7) 75%, #486c84 100%), url("../assets/img/cave.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(72, 108, 132, 0.7) 75%, #486c84 100%), url("../assets/img/shrine.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10798,4 +10798,9 @@ body {
     padding-top: 0;
     padding-bottom: 0;
   }
+}
+
+.card{
+  color: var(--primary) !important; 
+  border:none !important;
 }
