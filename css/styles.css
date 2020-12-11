@@ -10779,6 +10779,10 @@ body {
   margin-bottom: 5%;
 }
 
+.sch{
+  max-width: 100%;
+  height: auto;
+}
 
 @media (max-width: 767px) {
   .carousel-content {
@@ -10787,6 +10791,10 @@ body {
   .box-carousel{
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .sch{
+    max-width: 60%;
+    height: auto;
   }
 }
 
